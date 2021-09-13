@@ -35,4 +35,3 @@ each_bill = int((total_bill_with_tip / number_of_people) * 100) / 100
 
 
 print(f"Eath person should pay: £{each_bill:.2f}")
-
