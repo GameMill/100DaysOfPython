@@ -1,6 +1,6 @@
 import os
 
-def safe_input(text):
+def safe_input(text): # Prevents empty string
     try:
         data = input(text).strip()
         if(data != ""):
@@ -9,12 +9,16 @@ def safe_input(text):
     except:
         return safe_input(text)
 
-def clear_screen():
+def clear_screen(): # Clears the screen
     os.system("cls||clear")
+
         
 clear_screen()
-print("""Welcome to the Band Name Generator.
-What's name of the city you grew up in?""");
+print("#"*100)
+print(" Welcome to Band Name Generator ".center(100,"#"))
+print("#"*100)
+print("")
+print("What's name of the city you grew up in?")
 city = safe_input("")
 
 print("What's your pet's name?")
