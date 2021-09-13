@@ -12,7 +12,7 @@ def safe_float_input(text):
         data =  float(input(text).strip())
         return data
     except:
-        return safe_int_input(text)
+        return safe_float_input(text)
 
 
 def clear_screen():
