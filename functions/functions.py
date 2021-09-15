@@ -14,3 +14,10 @@ def safe_float_input(text):
         return data
     except:
         return safe_float_input(text)
+
+def safe_int_input(text):
+    try:
+        data =  int(input(text).strip())
+        return data
+    except:
+        return safe_int_input(text)
