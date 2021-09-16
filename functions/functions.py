@@ -21,3 +21,15 @@ def safe_int_input(text):
         return data
     except:
         return safe_int_input(text)
+
+
+def safe_int_input_min_max(text,min,max):
+    try:
+        data =  int(input(text).strip())
+        if data >= min and data <= max:
+            return data
+        else:
+            return safe_int_input_min_max(text,min,max)
+    except:
+        return safe_int_input_min_max(text,min,max)
+
