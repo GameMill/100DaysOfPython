@@ -6,3 +6,5 @@
 4. Heads or Tails (Mini Game) | Random State | Roulette (Mini Game) | Treasure Map | Rock, Paper, Scissors (Mini Game)
 5. Average Height | Highest Score | Add Even | Password Generator
 6. Complated https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json
+7. Hangman (Mini Game)
+8. Paint Can Calculator | Prime Number Checker | Caesar Cipher
