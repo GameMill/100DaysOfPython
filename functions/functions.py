@@ -1,3 +1,14 @@
+import  os
+def title(project_name):
+    os.system("cls||clear") 
+    n = 50
+    if(len(project_name) > 48):
+        n = 100
+    print("#"*n)
+    print(f" {project_name} ".center(n,"#"))
+    print("#"*n)
+    print("")
+
 
 def safe_input(text): # Prevents empty string
     try:
