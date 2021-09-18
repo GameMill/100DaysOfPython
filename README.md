@@ -8,3 +8,4 @@
 6. Complated https://reeborg.ca/reeborg.html Mini Games
 7. Hangman (Mini Game)
 8. Paint Can Calculator | Prime Number Checker | Caesar Cipher
+9. Grading Program | Dictionary in list | Secret Action Program
