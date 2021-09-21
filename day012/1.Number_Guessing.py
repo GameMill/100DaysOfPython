@@ -46,7 +46,7 @@ def Guess(Number,lives):
         if lives == 0:
             return False
         else:
-            print("Lives remaining: {lives}")
+            print(f"Lives remaining: {lives}")
             if user_guess > Number: # The user guess was too hign
                 print("Too hign.")
                 return Guess(Number,lives)
