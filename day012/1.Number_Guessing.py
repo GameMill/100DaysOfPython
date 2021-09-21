@@ -67,3 +67,4 @@ if Guess(number,lives):
     print(f"You guess correct. the number was {number}")
 else:
     print(f"Sorry. my number was {number}")
+    
