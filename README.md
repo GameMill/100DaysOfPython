@@ -12,3 +12,4 @@
 10. Days In Month | Calculator
 11. Blackjack
 12. Number Guessing (Mini Game)
+13. Bug fixing
