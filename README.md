@@ -13,3 +13,6 @@
 11. Blackjack
 12. Number Guessing (Mini Game)
 13. Bug fixing
+14. Higher or Lower (Mini Game)
+15. Coffee Matchine
+16. OOP Coffee Matchine

@@ -65,3 +65,15 @@ def safe_yes_no_input(text):
             return safe_yes_no_input(text)
     except:
         return safe_yes_no_input(text)
+
+def safe_dynamic_input(text,option_list):
+    """check the user has inputed [["yes","y"],["no","n"]] for yes and no or n for no and returns 'yes' or 'no' Prevents invalid input"""
+
+    try:
+        data =  input(text).strip().lower()
+        for item in option_list:
+            if item.__contains__(data):
+                return item[0]
+        return safe_dynamic_input(text,option_list)
+    except:
+        return safe_dynamic_input(text,option_list)
