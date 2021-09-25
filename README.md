@@ -16,5 +16,6 @@
 14. Higher or Lower (Mini Game)
 15. Coffee Matchine
 16. OOP Coffee Matchine
-17. Quiz game
-18. learning turtle
+17. Quiz Game
+18. Learning Turtle
+19. Turtle Race (Mini Game)
