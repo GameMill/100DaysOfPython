@@ -46,7 +46,6 @@ while is_alive:
     ns = time.time_ns()
     time_delta = (time.time_ns()-last_tick)/1000000000
     last_tick = ns + ((GAME_SPEED-time_delta)*1000000000)
-    print(f"Tick: {time_delta}")
     scoreboard.draw()
     screen.update()
     
