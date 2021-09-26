@@ -1,5 +1,6 @@
 import os
 import random
+
 def title(project_name):
     """Generate the program title and print to console"""
     os.system("cls||clear") 
