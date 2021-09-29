@@ -5,7 +5,8 @@ from score import ScoreBoard
 import time
 import turtle
 
-screen = Screen(title="Pong")
+screen = Screen()
+screen.title("Pong")
 screen.setup(width=600,height=600)
 screen.bgcolor("black")
 
