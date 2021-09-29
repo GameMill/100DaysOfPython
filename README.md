@@ -19,4 +19,6 @@
 17. Quiz Game
 18. Learning Turtle
 19. Turtle Race (Mini Game)
-20-21. Snake Game
+20. Snake Game P1
+21. Snake Game P2
+22. Pong Without Tutoral 
