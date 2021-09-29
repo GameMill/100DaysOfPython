@@ -16,8 +16,8 @@ class Car(Turtle):
         pos = player.pos()
         car_pos = self.pos()
         diff_pos = (abs(pos[0]-car_pos[0]),abs(pos[1]-car_pos[1]))
-        if(diff_pos[1] <= 40):
-            if(diff_pos[0] <= 60):
+        if(diff_pos[1] <= 30):
+            if(diff_pos[0] <= 30):
                 return True
         return False
         

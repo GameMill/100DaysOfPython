@@ -18,7 +18,7 @@ score = ScoreBoard()
 
 cars = []
 
-change = 20
+change = 10
 is_running = True
 while is_running:
     if(random.randint(0,change) == 1):
