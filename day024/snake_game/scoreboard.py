@@ -1,11 +1,14 @@
 import fileinput
+import os
 from turtle import Turtle
 
 class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
+        self.root = os.path.dirname(os.path.abspath(__file__)) + "/"
+
         try:
-            with open("hi_score.txt") as file:
+            with open(f"{self.root}hi_score.txt") as file:
                 self.hi_score = int(file.readline())
         except:
             self.hi_score = 0
@@ -19,7 +22,7 @@ class Scoreboard(Turtle):
         self.goto(0,280)
 
     def save_hi_score(self):
-        with open("hi_score.txt",mode="w") as file:
+        with open(f"{self.root}hi_score.txt",mode="w") as file:
             file.write(str(self.hi_score))
 
     def draw(self):
