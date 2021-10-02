@@ -37,9 +37,10 @@ while(num_of_states >= len(correct_states)):
 
 
 incorrect_states = {"Incorrect States":[]}
-for item in states_data.state:
-    if(item not in correct_states):
-        incorrect_states["Incorrect States"].append(item)
+incorrect_states["Incorrect States"] = [state for state in states_data.state if state not in correct_states]
+# for item in states_data.state:
+#     if(item not in correct_states):
+#         incorrect_states["Incorrect States"].append(item)
 
 
 incorrect_states = pandas.DataFrame(incorrect_states)
