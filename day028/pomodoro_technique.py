@@ -29,6 +29,9 @@ def Reset_button_clicked():
 
 def Start_button_clicked():
     global Running
+    if(Running == True):
+        return
+        
     Running = True
 
     label1.config(text="Working")
