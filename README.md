@@ -21,4 +21,8 @@
 19. Turtle Race (Mini Game)
 20. Snake Game P1
 21. Snake Game P2
-22. Pong Without Tutoral 
+22. Pong Game (Without Tutoral)
+23. Cross the road Game (Without Tutoral) 
+24. Mail Merge
+25. Working With CSV | Learning Pandas | Counting Squirrels | US States Quiz
+26. List Comprehension | List Comprehension Challange | Date Overlap | Dictionary Comprehension | Dictionary Comprehension Challange | Phontic
