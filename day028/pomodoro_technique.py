@@ -11,9 +11,9 @@ FONT_TIMER = ("Courier",35,"bold")
 FONT_HEADER = ("Courier",45,"bold")
 FONT_BUTTON = ("Arial",12,"bold")
 FONT_CHECKMARK = ("Arial",22,"bold")
-WORK_MIN = 10 #25 * 60
-SHORT_BREAK_MIN = 5 #5 * 60
-LONG_BREAK_MIN = 15 #20 * 60
+WORK_MIN = 25 * 60
+SHORT_BREAK_MIN = 5 * 60
+LONG_BREAK_MIN = 30 * 60
 ROOT = os.path.dirname(os.path.abspath(__file__)) + "/"
 
 
@@ -22,7 +22,7 @@ Running = False
 def Reset_button_clicked():
     global Running
     Running = False
-    label1.config(text="Timer")
+    label1.config(text=" Timer ")
     background.itemconfig(timer_text,text="00:00")
     label2.config(text="✔✔✔✔")
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
@@ -62,8 +62,8 @@ def raise_above_all():
     window.attributes('-topmost', 0)
 
 def time_up(num,working):
-    if(working):
-        raise_above_all()
+    raise_above_all()
+    if(working): 
         if(num < 3):
             
             label1.config(text=" Brake ",fg=PINK)
@@ -74,10 +74,8 @@ def time_up(num,working):
 
     else:
         num = (num % 3) + 1
-
         label1.config(text="Working",fg=YELLOW)
         label2.config(text="✔"*num)
-        print(num)
         count_down(WORK_MIN,num,True)
 
 # ---------------------------- UI SETUP ------------------------------- #
