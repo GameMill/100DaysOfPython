@@ -27,3 +27,7 @@
 25. Working With CSV | Learning Pandas | Counting Squirrels | US States Quiz
 26. List Comprehension | List Comprehension Challange | Date Overlap | Dictionary Comprehension | Dictionary Comprehension Challange | Phontic
 27. Learning TKinter | Playground | Miles to Km Converter
+28. Pomodoro Technique App
+29. Password Manager
+30. Try blck | 2x Exercise | Password Manager V2
+31. Japanese to English flash cards Capstone Project (custom implmention to allow japanese characters)
