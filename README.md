@@ -31,3 +31,4 @@
 29. Password Manager
 30. Try blck | 2x Exercise | Password Manager V2
 31. Japanese to English flash cards Capstone Project (custom implmention to allow japanese characters)
+32. Monday Motivation Emailer | Birthday Emailer
