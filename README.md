@@ -35,3 +35,4 @@
 33. Is the IIS Above
 34. Quiz Game V2
 35. Check for rain in the next 12h
+36. Stock trade monitor
