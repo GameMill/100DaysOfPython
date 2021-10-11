@@ -114,4 +114,5 @@ Subject: {COMPANY_NAME} Stock {Header(diff[3].replace("UP","🔺").replace("DOWN
 """
 
         smtp.sendmail(EMAIL_DATA["Username"],EMAIL_DATA["ToEmail"],message.encode("ascii","ignore").decode("ascii"))
+        print("Message Sent")
 
