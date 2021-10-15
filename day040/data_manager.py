@@ -43,21 +43,24 @@ class DataManager:
         
         valid_flights = []
         for flight in self.FLIGHT_SEARCH.search(citys):
-            max_price = self.get_max_price(flight.city_to)
-            if(self.get_max_price(flight.city_to) >= flight.price):
+            max_price = self.get_max_price(flight.to_code)
+            if(max_price >= flight.price):
                 valid_flights.append(flight)
-                print("Flight Found")
+                #print(f"Flight Found {max_price} >= {flight.price}")
         return valid_flights
 
     def get_max_price(self,city):
         for item in self.DATA:
-            if(item["city"].lower() == city.lower()):
+            if(item["iataCode"].lower() == city.lower()):
                 return item["lowestPrice"]
+                
+        
         return 0 # error city not found. remove from list
+
     def load_data(self):
         if(self.DATA == None):
-            #self.DATA = self.load_saved_date()
-            #return self.DATA
+            self.DATA = self.load_saved_date()
+            return self.DATA
             
             response = requests.get(self.SHEETY_URL,auth=self.API_KEY)
             response.raise_for_status()
