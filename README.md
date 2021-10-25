@@ -36,4 +36,19 @@
 34. Quiz Game V2
 35. Check for rain in the next 12h
 36. Stock trade monitor
-37. habit tracker
+37. Habit tracker
+38. Exercise tracker
+39. Find cheap flights app
+40. Find cheap flights app V2
+41. Complated in The Complete 2021 Web Development Bootcamp
+42. Complated in The Complete 2021 Web Development Bootcamp
+43. Complated in The Complete 2021 Web Development Bootcamp
+44. Complated in The Complete 2021 Web Development Bootcamp
+45. learing BeautifulSoup to scrap info from html file
+46. Create top 100 playlist on spotifiy
+47. Amazon price tracker
+48. Cookie Clicker game Bot
+49. apply for jobs on linkedin app 
+50. auto tinder like app (auto like has been remove from app)
+51. internet speed test and if speed is low report it on twitter
+52. instagram auto follower app
