@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Merriweather&family=Montserrat:ital@1&family=Pacifico&family=Sacramento&display=swap');
+body{
+    margin: 0;
+    font-family: "Merriweather", serif
+}
+
+
+.top-container{
+    background-color: #E4F9F5;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+.top-container h1{
+    font-size: 5.625rem;
+    margin-top: 0;
+    font-family: "Sacramento", serif
+}
+.top-container h2{
+    font-family: "Montserrat", serif
+
+}
+.top-container h3{
+    font-family: "Montserrat", serif
+
+}
+    
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
